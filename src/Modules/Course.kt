@@ -1,0 +1,2 @@
+//classement=1 ça veut dire le cours est au top. donc cette valeur a le role de classer les cours
+data class Course(val id:Int, val titre:String, var niveauComp:String? =null, val actif :Boolean, val classement:Int)
